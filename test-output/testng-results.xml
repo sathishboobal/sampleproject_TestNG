@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-25T21:10:06 IST" name="Suite" finished-at="2023-02-25T21:10:29 IST" duration-ms="22702">
+    <groups>
+    </groups>
+    <test started-at="2023-02-25T21:10:06 IST" name="chromeTest" finished-at="2023-02-25T21:10:23 IST" duration-ms="17663">
+      <class name="org.testng.crossBrowser">
+        <test-method signature="tc1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testng.crossBrowser@57d7f8ca]" started-at="2023-02-25T21:10:06 IST" name="tc1" finished-at="2023-02-25T21:10:23 IST" duration-ms="17590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sathish@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sathish12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chromebrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.testng.crossBrowser -->
+    </test> <!-- chromeTest -->
+    <test started-at="2023-02-25T21:10:06 IST" name="internetexplorerTest" finished-at="2023-02-25T21:10:28 IST" duration-ms="22520">
+      <class name="org.testng.crossBrowser">
+        <test-method signature="tc1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testng.crossBrowser@21282ed8]" started-at="2023-02-25T21:10:06 IST" name="tc1" finished-at="2023-02-25T21:10:28 IST" duration-ms="22463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sathish@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sathish12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[internetexplorerbroser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.testng.crossBrowser -->
+    </test> <!-- internetexplorerTest -->
+    <test started-at="2023-02-25T21:10:06 IST" name="edgeTest" finished-at="2023-02-25T21:10:29 IST" duration-ms="22702">
+      <class name="org.testng.crossBrowser">
+        <test-method signature="tc1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:org.testng.crossBrowser@1e1a0406]" started-at="2023-02-25T21:10:06 IST" name="tc1" finished-at="2023-02-25T21:10:29 IST" duration-ms="22637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sathish@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sathish12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[edgebrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+      </class> <!-- org.testng.crossBrowser -->
+    </test> <!-- edgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

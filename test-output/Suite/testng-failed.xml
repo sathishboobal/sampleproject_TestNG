@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="sathish12345"/>
+  <parameter name="username" value="sathish@gmail.com"/>
+  <test thread-count="3" parallel="tests" name="chromeTest(failed)">
+    <parameter name="browser" value="chromebrowser"/>
+    <classes>
+      <class name="org.testng.crossBrowser">
+        <methods>
+          <include name="tc1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.testng.crossBrowser -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="3" parallel="tests" name="internetexplorerTest(failed)">
+    <parameter name="browser" value="internetexplorerbrowser"/>
+    <classes>
+      <class name="org.testng.crossBrowser">
+        <methods>
+          <include name="tc1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.testng.crossBrowser -->
+    </classes>
+  </test> <!-- internetexplorerTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
